@@ -1,13 +1,13 @@
 import cv2
 import numpy as np 
 
-video=cv2.VideoCapture(0)
+video=cv2.VideoCapture("test5.mp4")
 
 
 CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
 "bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
 "dog", "horse","motorbike", "person", "pottedplant", "sheep",
-"sofa", "train", "monitor","charger","airpods","Mobile"]
+"sofa", "train", "monitor","charger","airpods","Mobile","Signboards"]
 
 net=cv2.dnn.readNetFromCaffe ('MobileNetSSD_deploy.prototxt.txt', 'MobileNetSSD_deploy.caffemodel' )
 
