@@ -1,4 +1,4 @@
-import cv2
+import cv2 
 import numpy as np 
 
 video=cv2.VideoCapture("test5.mp4")
